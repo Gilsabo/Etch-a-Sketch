@@ -1,0 +1,28 @@
+:root{
+    --grid-rows:1;
+    --grid-columns:1;
+}
+
+
+h1{
+        color: red;
+}
+
+.container{
+    
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: repeat(var(--grid-rows), auto);
+    grid-template-rows: repeat(var(--grid-cols),auto);
+
+   
+    
+}
+.square  {
+border:black 1px solid;
+    
+
+}
+
+
