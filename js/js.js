@@ -18,9 +18,9 @@ function squaresEventList(){
 const squares = document.getElementsByClassName('square');
 for (var i = 0; i<squares.length; i++){
     squares[i].addEventListener('mouseover',(e) => {
-        e.target.style.background = 'blue';
+        e.target.style.background = randomColor();
         console.log(e)
-        })
+        }) 
     }
 }
 
@@ -44,3 +44,10 @@ function sizeGrid(){
 }
    
 
+function randomColor(){
+  const red = Math.floor(Math.random() * 256);
+  const green = Math.floor(Math.random() * 256);
+  const blue = Math.floor(Math.random() * 256);
+  return "rgb(" + red + ", " + green + ", " + blue + ")";
+
+}
