@@ -4,7 +4,7 @@
 Etch-a-Sketch
 
 ## Description
-This is an Etch-a-Sketch project built using HTML, CSS, and JavaScript. The project allows users to draw on the screen by moving their mouse or touching their screen, creating a fun and interactive experience.
+This is an Etch-a-Sketch project built using HTML, CSS, and JavaScript. The project allows users to pick a size and draw on the screen by moving their mouse or touching their screen, creating a fun and interactive experience. Feel free to [paint](https://gilsabo.github.io/Etch-a-Sketch/) what it might be the new Gioconda
 
 ## Features
 - Draw on the screen using your mouse or touch
