@@ -1,37 +1,37 @@
-:root{
-    --grid-rows:1;
-    --grid-columns:1;
+:root {
+    --grid-rows: 1;
+    --grid-columns: 1;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1{
-        color: red;
+h1 {
+    color: red;
 }
 
-.container{
-    
+.container {
+
     display: grid;
     width: 400px;
     height: 400px;
     border: solid 1px black;
     grid-template-columns: repeat(var(--grid-rows), auto);
-    grid-template-rows: repeat(var(--grid-cols),auto);
+    grid-template-rows: repeat(var(--grid-cols), auto);
     background-color: white;
 
 }
-.square  {
-border:black 1px solid;
-background-color: white;
-    
+
+.square {
+    border: black 1px solid;
+    background-color: white;
+
 }
 
-.buttons{
+.buttons {
     margin-bottom: 10px;
 }
-
