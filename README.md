@@ -11,7 +11,7 @@ This is an Etch-a-Sketch project built using HTML, CSS, and JavaScript. The proj
 - HTML
 - CSS
 - JavaScript
-## I learned:
+## I learned
 - Event handling in JavaScript
 - Manipulating the Document Object Model (DOM) with JavaScript
 - Basic drawing algorithms and techniques
